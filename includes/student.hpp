@@ -19,6 +19,13 @@ public:
   */
   Student(); // Default constructor
 
+  /**
+  * @brief Parameterized constructor for the Student class.
+  * @param name The name of the student.
+  * @param age The age of the student.
+  * @param studentID The unique student ID.
+  */
+  Student(const std::string* name, int age, int studentID);
   
 }
 
