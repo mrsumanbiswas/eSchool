@@ -8,11 +8,6 @@
 */
 
 class student{
-private:
-  std::string name; ///< The name of the student.
-  int age;          ///< The age of the student.
-  int studentID;    ///< The uniqe student ID.
-
 public:
   /**
   * @brief Default constructor for the Student class.
@@ -33,6 +28,11 @@ public:
   ~Student();
 
   
+private:
+  std::string name; ///< The name of the student.
+  int age;          ///< The age of the student.
+  int studentID;    ///< The uniqe student ID.
+
 }
 
 
