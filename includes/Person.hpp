@@ -7,6 +7,54 @@
 * @brief Represents a `person` object
 */
 
+/**
+ * @brief Represents basic personal information for a person.
+ */
+struct PersonalInfo {
+    std::string name;            ///< The full name of the person.
+    std::string dateOfBirth;     ///< The date of birth of the person (e.g., "YYYY-MM-DD").
+    std::string gender;          ///< The gender of the person (e.g., Male, Female, Non-binary).
+    int age;                     ///< The age of the person.
+    std::vector<std::string> languagesSpoken; ///< List of languages spoken by the person.
+    std::string citizenship;     ///< The citizenship status or country of origin.
+    int uniqueID;                ///< Unique identifier for the person.
+};
+
+/**
+ * @brief Represents contact information for a person.
+ */
+struct ContactInfo {
+    std::string email;
+    std::string mobilePhoneNumber;
+    std::string homePhoneNumber;
+    std::string address;
+};
+
+/**
+ * @brief Represents emergency contact information for a person.
+ */
+struct EmergencyContact {
+    std::string name;
+    std::string phoneNumber;
+};
+
+/**
+ * @brief Represents personal interests and hobbies of a person.
+ */
+struct Interests {
+    std::vector<std::string> hobbies; ///< List of hobbies.
+    std::vector<std::string> interests; ///< List of interests.
+};
+
+
+
+
+
+
+
+
+
+
 class person{
 public:
   /**

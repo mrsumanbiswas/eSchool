@@ -1,13 +1,12 @@
 #ifdef STUDENT_HPP
 #define STUDENT_HPP
 
-#include <string>
-
+#include "Person.hpp"
 /**
 * @brief Represents a `student` object
 */
 
-class student{
+class Student: {
 public:
   /**
   * @brief Default constructor for the Student class.
