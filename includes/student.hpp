@@ -26,6 +26,12 @@ public:
   * @param studentID The unique student ID.
   */
   Student(const std::string* name, int age, int studentID);
+
+  /**
+   * @brief Destructor for the Student class.
+   */
+  ~Student();
+
   
 }
 
