@@ -45,7 +45,7 @@ struct Interests {
 /**
 * @brief Represents a `person` object
 */
-class person{
+class Person{
 public:
   /**
   * @brief Default constructor for the Person class.
