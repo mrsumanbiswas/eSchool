@@ -58,7 +58,10 @@ public:
   ~Person();
 
 private:
- 
+  PersonalInfo personalInfo; ///< Personal information of the person.
+  ContactInfo contactInfo; ///< Contact information of the person.
+  EmergencyContact emergencyContact; ///< Emergency contact of the person.
+  Interests interests; ///< Interests of the person.   
 }
 
 
