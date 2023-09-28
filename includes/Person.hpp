@@ -2,6 +2,7 @@
 #define PERSON_HPP
 
 #include <string>
+#include <vector>
 
 /**
  * @brief Represents basic personal information for a person.
